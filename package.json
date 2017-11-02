@@ -1,0 +1,32 @@
+{
+  "name": "avet-antd",
+  "version": "0.1.0",
+  "description": "avet antd",
+  "avetPlugin": {
+    "name": "antd"
+  },
+  "keywords": [
+    "avet",
+    "avetPlugin",
+    "avet-plugin",
+    "antd"
+  ],
+  "dependencies": {
+    "antd": "^2.10.2",
+    "babel-plugin-import": "^1.1.1"
+  },
+  "devDependencies": {
+    "avet-bin": "^0.4.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "author": "okoala <dapixp@gmail.com>",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "files": [
+    "config",
+    "app.js"
+  ],
+  "license": "MIT"
+}
