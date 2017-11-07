@@ -1,8 +1,8 @@
 'use strict';
 
 exports.build = {
-  babel: {
-    plugins: [
+  babel: (babelConfig) => {
+    babelConfig.plugins.push(
       [
         require.resolve('babel-plugin-import'),
         {
@@ -10,6 +10,7 @@ exports.build = {
           "style": false
         }
       ]
-    ]
+    );
+    return babelConfig;
   }
 }
