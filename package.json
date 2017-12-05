@@ -1,6 +1,6 @@
 {
   "name": "avet-antd",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "avet antd",
   "avetPlugin": {
     "name": "antd"
@@ -8,7 +8,8 @@
   "keywords": ["avet", "avetPlugin", "avet-plugin", "antd"],
   "scripts": {
     "test": "avet-bin dev --rootDir ./test",
-    "build": "avet-bin build"
+    "build": "avet-bin build",
+    "prepublish": "avet-bin build"
   },
   "dependencies": {
     "antd": "^3.0.0",
