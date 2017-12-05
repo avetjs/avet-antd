@@ -5,28 +5,26 @@
   "avetPlugin": {
     "name": "antd"
   },
-  "keywords": [
-    "avet",
-    "avetPlugin",
-    "avet-plugin",
-    "antd"
-  ],
+  "keywords": ["avet", "avetPlugin", "avet-plugin", "antd"],
+  "scripts": {
+    "test": "avet-bin dev --rootDir ./test",
+    "build": "avet-bin build"
+  },
   "dependencies": {
-    "antd": "^2.10.2",
-    "babel-plugin-import": "^1.1.1"
+    "antd": "^3.0.0",
+    "babel-plugin-import": "^1.6.2"
   },
   "devDependencies": {
-    "avet-bin": "^0.4.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "avet": "^1.0.0-9",
+    "avet-bin": "^1.0.0-9",
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.9.0",
+    "eslint-config-avet": "^0.3.7"
   },
   "author": "okoala <dapixp@gmail.com>",
   "engines": {
     "node": ">= 8.0.0"
   },
-  "files": [
-    "config",
-    "app.js"
-  ],
+  "files": ["config", "output", "README.md"],
   "license": "MIT"
 }
