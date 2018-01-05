@@ -12,15 +12,15 @@
     "prepublish": "avet-bin build"
   },
   "dependencies": {
-    "antd": "^3.0.0",
-    "babel-plugin-import": "^1.6.2"
+    "antd": "3.1.0",
+    "babel-plugin-import": "1.6.3"
   },
   "devDependencies": {
-    "avet": "^1.0.0-9",
-    "avet-bin": "^1.0.0-9",
-    "babel-eslint": "^8.0.2",
-    "eslint": "^4.9.0",
-    "eslint-config-avet": "^0.3.7"
+    "avet": "1.0.0",
+    "avet-bin": "1.0.0-21",
+    "babel-eslint": "8.1.2",
+    "eslint": "4.14.0",
+    "eslint-config-avet": "0.3.11"
   },
   "author": "okoala <dapixp@gmail.com>",
   "engines": {
