@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "avet": "1.0.0-21",
-    "avet-bin": "1.0.0-21",
+    "avet-bin": "1.0.0-22",
     "babel-eslint": "8.1.2",
     "eslint": "4.14.0",
     "eslint-config-avet": "0.3.11"
