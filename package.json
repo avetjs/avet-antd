@@ -16,7 +16,7 @@
     "babel-plugin-import": "1.6.3"
   },
   "devDependencies": {
-    "avet": "1.0.0",
+    "avet": "1.0.0-21",
     "avet-bin": "1.0.0-21",
     "babel-eslint": "8.1.2",
     "eslint": "4.14.0",
