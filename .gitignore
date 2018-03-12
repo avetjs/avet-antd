@@ -59,4 +59,7 @@ typings/
 
 output
 
+.build
 .avet
+logs
+run

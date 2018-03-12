@@ -1,7 +1,7 @@
 const { join } = require('path');
 
-exports.avet = {
-  dir: join(process.cwd(), 'test'),
+exports.app = {
+  dir: join(__dirname, '..'),
 };
 
 exports.build = {

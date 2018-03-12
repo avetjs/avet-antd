@@ -1,4 +1,4 @@
 exports.antd = {
   enable: true,
-  package: '../',
+  package: '../../',
 };

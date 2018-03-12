@@ -1,11 +1,19 @@
 import React from 'react';
+import config from 'avet/config';
 
-export default ({ config }) => {
-  const AntdHead = {
-    content: [ <link rel="stylesheet" href={config.antd.cssCdn} /> ],
-  };
+const AntdHead = { content: [] };
 
-  return {
-    head: AntdHead,
-  };
+let filepath;
+if (config.antd.mode === 'cdn') {
+  filepath = config.antd.cssCdn;
+} else if (config.antd.mode === 'static') {
+  filepath = '/static/antd.min.css';
+}
+
+if (filepath) {
+  AntdHead.content = [<link rel="stylesheet" href={filepath} />];
+}
+
+export default {
+  head: AntdHead,
 };
